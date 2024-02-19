@@ -1,0 +1,9 @@
+manifests:
+  - name: domain_inventory
+    type: file
+    config:
+      path: ../domain_inventory/target/manifest.json
+  - name: domain_sales
+    type: file
+    config:
+      path: ../domain_sales/target/manifest.json

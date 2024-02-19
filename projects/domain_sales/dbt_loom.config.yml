@@ -1,0 +1,5 @@
+manifests:
+  - name: domain_inventory
+    type: file
+    config:
+      path: ../domain_inventory/target/manifest.json

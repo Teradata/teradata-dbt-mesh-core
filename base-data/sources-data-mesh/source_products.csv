@@ -1,0 +1,51 @@
+﻿product_id,product_name,product_category,price_cents
+1,Dish Soap,Cleaning Supplies,800
+2,Laundry Detergent,Cleaning Supplies,1500
+3,All-Purpose Cleaner,Cleaning Supplies,1000
+4,Glass Cleaner,Cleaning Supplies,600
+5,Paper Towels,Paper Products,1000
+6,Toilet Paper,Paper Products,1200
+7,Facial Tissue,Paper Products,800
+8,Trash Bags,Waste Management,1500
+9,Air Freshener,Home Fragrance,600
+10,Hand Soap,Personal Care,800
+11,Body Wash,Personal Care,1500
+12,Shampoo,Personal Care,1200
+13,Conditioner,Personal Care,1200
+14,Toothpaste,Personal Care,500
+15,Mouthwash,Personal Care,800
+16,Deodorant,Personal Care,1000
+17,Feminine Hygiene Products,Personal Care,1200
+18,Razors,Personal Care,1500
+19,Shaving Cream,Personal Care,800
+20,Sunscreen,Personal Care,1500
+21,Insect Repellent,Outdoor Living,1000
+22,Light Bulbs,Lighting,500
+23,Batteries,Electronics,1000
+24,Power Strips,Electronics,1200
+25,Surge Protectors,Electronics,1500
+26,Extension Cords,Electronics,800
+27,Flashlights,Electronics,1000
+28,Cleaning Wipes,Cleaning Supplies,800
+29,Disinfectant Spray,Cleaning Supplies,1200
+30,Disinfectant Wipes,Cleaning Supplies,1000
+31,Furniture Polish,Cleaning Supplies,800
+32,Oven Cleaner,Cleaning Supplies,1200
+33,Carpet Cleaner,Cleaning Supplies,1500
+34,Fabric Softener,Laundry Supplies,1000
+35,Stain Remover,Laundry Supplies,800
+36,Bleach,Laundry Supplies,600
+37,Dryer Sheets,Laundry Supplies,800
+38,Dishwasher Detergent,Kitchen Supplies,1200
+39,Paper Plates,Kitchen Supplies,1000
+40,Plastic Cups,Kitchen Supplies,500
+41,Aluminum Foil,Kitchen Supplies,800
+42,Plastic Wrap,Kitchen Supplies,600
+43,Food Storage Containers,Kitchen Supplies,1500
+44,Dish Scrubber,Cleaning Supplies,500
+45,Sponges,Cleaning Supplies,800
+46,Trash Can,Waste Management,2000
+47,Mop,Cleaning Supplies,1500
+48,Broom,Cleaning Supplies,1200
+49,Vacuum Cleaner,Cleaning Supplies,2000
+50,Air Purifier,Home Appliances,2000

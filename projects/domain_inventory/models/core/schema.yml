@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: stock_product
+    access: public
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: product_id
+        data_type: INTEGER
+        constraints:
+          - type: not_null
+      - name: calendar_month
+        data_type: INTEGER
+      - name: calendar_year
+        data_type: INTEGER
+      - name: quantity
+        data_type: INTEGER
+      - name: avg_purchase_price
+        data_type: INTEGER
+
+  - name: products
+    access: public
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: product_id
+        data_type: BYTEINT
+        constraints:
+          - type: not_null
+      - name: product_name
+        data_type: CHAR
+      - name: product_category
+        data_type: CHAR
+      - name: price_cents
+        data_type: integer

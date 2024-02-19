@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: order_summary
+    access: public
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: order_id
+        data_type: INTEGER
+        constraints:
+          - type: not_null
+      - name: customer_id
+        data_type: INTEGER
+      - name: order_status
+        data_type: VARCHAR(15)
+      - name: order_date
+        data_type: DATE
+      - name: total_value
+        data_type: INTEGER
+      
+  - name: customer_summary
+    access: public
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: customer_id
+        data_type: SMALLINT
+        constraints:
+          - type: not_null
+      - name: customer_name
+        data_type: VARCHAR(20)
+      - name: customer_surname
+        data_type: VARCHAR(20)
+      - name: customer_email
+        data_type: VARCHAR(50)
+      - name: customer_tvl
+        data_type: INTEGER

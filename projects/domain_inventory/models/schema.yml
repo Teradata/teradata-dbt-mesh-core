@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: teddy_retailers_inventory
+    description: These are the tables that our extraction software manages most likely through batch jobs. 
+    tables:
+      - name: source_catalog
+        columns:
+        - name: product_id
+          tests:
+          - unique
+          - not_null
+      - name: source_stock
+        columns:
+        - name: entry_id
+          tests:
+          - unique
+          - not_null
