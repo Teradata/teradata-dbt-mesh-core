@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: stg_order_products
+    access: public
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: transaction_id
+        data_type: INTEGER
+        constraints:
+          - type: not_null
+      - name: order_id
+        data_type: SMALLINT
+      - name: product_id
+        data_type: BYTEINT
+      - name: product_quantity
+        data_type: BYTEINT
