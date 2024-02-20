@@ -10,7 +10,7 @@ CREATE TABLE teddy_retailers_inventory.source_catalog AS
 --- Stock entries
 CREATE TABLE teddy_retailers_inventory.source_stock AS
 (
-  SELECT entry_id, product_id, product_quantity, unit_purchase_price, entry_date
+  SELECT entry_id, product_id, product_quantity, purchase_price_cents, entry_date
      FROM (
 		LOCATION='/s3/dev-rel-demos.s3.amazonaws.com/demo-datamesh/source_stock.csv') as stock
 ) WITH DATA;
