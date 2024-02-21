@@ -14,7 +14,7 @@ order_pl AS (
         os.customer_id,
         os.order_status,
         os.order_date,
-        os.total_value as revenue,
+        os.total_value as order_revenue,
         oc.order_cost,
         revenue - order_cost as order_pl
     FROM order_sales AS os 

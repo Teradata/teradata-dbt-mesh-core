@@ -1,0 +1,47 @@
+domain_inventory:
+  target: dev
+  outputs:
+    dev:
+      type: teradata
+      host: <Your host> 
+      user: <Your user>
+      password: <Your password>
+      logmech: TD2
+      schema: teddy_retailers_inventory
+      tmode: ANSI
+      threads: 1
+      timeout_seconds: 300
+      priority: interactive
+      retries: 1
+
+domain_sales:
+  target: dev
+  outputs:
+    dev:
+      type: teradata
+      host: <Your host>  
+      user: <Your user>
+      password: <Your password>
+      logmech: TD2
+      schema: teddy_retailers_sales
+      tmode: ANSI
+      threads: 1
+      timeout_seconds: 300
+      priority: interactive
+      retries: 1
+
+domain_finance:
+  target: dev
+  outputs:
+    dev:
+      type: teradata
+      host: <Your host> 
+      user: <Your user>
+      password: <Your password>
+      logmech: TD2
+      schema: teddy_retailers_finance
+      tmode: ANSI
+      threads: 1
+      timeout_seconds: 300
+      priority: interactive
+      retries: 1

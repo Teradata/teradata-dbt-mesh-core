@@ -8,7 +8,7 @@ models:
         enforced: true
     columns:
       - name: product_id
-        data_type: INTEGER
+        data_type: BYTEINT
         constraints:
           - type: not_null
       - name: calendar_month
@@ -31,8 +31,8 @@ models:
         constraints:
           - type: not_null
       - name: product_name
-        data_type: CHAR
+        data_type: VARCHAR(48)
       - name: product_category
-        data_type: CHAR
+        data_type: VARCHAR(30)
       - name: price_cents
-        data_type: integer
+        data_type: SMALLINT
