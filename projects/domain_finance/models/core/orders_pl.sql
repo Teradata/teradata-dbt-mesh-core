@@ -16,7 +16,7 @@ order_pl AS (
         os.order_date,
         os.total_value as order_revenue,
         oc.order_cost,
-        revenue - order_cost as order_pl
+        order_revenue - order_cost as order_pl
     FROM order_sales AS os 
     JOIN order_cost oc ON os.order_id = oc.order_id
 )
