@@ -67,7 +67,7 @@ For setting up the development environment, follow these steps:
 
 1. Navigate to the `projects` directory in your local data mesh repository.
 2. Create and activate a Python virtual environment (at the time of writing the latest Python version supported is 3.11).
-3. Install dbt-teradata: `pip install dbt-teradata`.
+3. Install dbt-teradata: `python -m pip install dbt-core dbt-teradata`.
 4. Install the dbt-loom plugin: `pip install dbt-loom`.
 5. Copy the contents of `projects/profiles-sample.yml` to your home’s directory `.dbt/profiles.yml` file, if this file doesn’t exist in your system you need to create it.
 6. Edit the `.dbt/profiles.yml` file with the appropriate host, username, and password according to your Teradata Vantage configuration for the three projects.
